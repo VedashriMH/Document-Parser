@@ -1,0 +1,57 @@
+{
+    "{http://www.ferguson.com/esb}Envelope": {
+        "{http://www.ferguson.com/esb}Header": {
+            "{http://www.ferguson.com/esb}PartyInfo": [
+                {
+                    "{http://www.ferguson.com/esb}PartyId": {
+                        "text": "2715671"
+                    },
+                    "{http://www.ferguson.com/esb}PartyRole": {
+                        "text": "originator"
+                    }
+                },
+                {
+                    "{http://www.ferguson.com/esb}PartyId": {
+                        "text": "2716150"
+                    },
+                    "{http://www.ferguson.com/esb}PartyRole": {
+                        "text": "client"
+                    }
+                }
+            ],
+            "{http://www.ferguson.com/esb}Timestamp": {
+                "text": "2025-02-28T11:19:17Z"
+            }
+        },
+        "{http://www.ferguson.com/esb}Body": {
+            "{http://www.openapplications.org/oagis/9}GetProductAvailability": {
+                "{http://www.openapplications.org/oagis/9}ApplicationArea": {
+                    "{http://www.openapplications.org/oagis/9}CreationDateTime": {
+                        "text": "2025-02-28"
+                    }
+                },
+                "{http://www.openapplications.org/oagis/9}DataArea": {
+                    "{http://www.openapplications.org/oagis/9}Get": {
+                        "{http://www.openapplications.org/oagis/9}Expression": {}
+                    },
+                    "{http://www.openapplications.org/oagis/9}ProductAvailability": {
+                        "{http://www.openapplications.org/oagis/9}Item": {
+                            "{http://www.openapplications.org/oagis/9}ItemID": {
+                                "{http://www.openapplications.org/oagis/9}ID": {
+                                    "text": "245798"
+                                }
+                            }
+                        },
+                        "{http://www.openapplications.org/oagis/9}Facility": {
+                            "{http://www.openapplications.org/oagis/9}IDs": {
+                                "{http://www.openapplications.org/oagis/9}ID": {
+                                    "text": "DIST"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
