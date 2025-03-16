@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:Envelope xmlns:esb="http://www.ferguson.com/esb">
+  <esb:Header>
+    <esb:PartyInfo>
+      <esb:PartyId type="NETWORK_ALIAS">2715563</esb:PartyId>
+      <esb:PartyRole>originator</esb:PartyRole>
+    </esb:PartyInfo>
+    <esb:PartyInfo>
+      <esb:PartyId type="PARTY_ID">2718925</esb:PartyId>
+      <esb:PartyRole>client</esb:PartyRole>
+    </esb:PartyInfo>
+    <esb:Timestamp>2025-02-28T07:45:45Z</esb:Timestamp>
+    <esb:TimeToLive>2025-02-28T07:45:45Z</esb:TimeToLive>
+  </esb:Header>
+  <esb:Body>
+    <GetProductAvailability xmlns="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openapplications.org/oagis/9 GetProductAvailability.xsd" releaseID="9.0">
+      <ApplicationArea>
+        <CreationDateTime>2025-02-28T07:45:45Z</CreationDateTime>
+      </ApplicationArea>
+      <DataArea>
+        <Get>
+          <Expression />
+        </Get>
+        <ProductAvailability>
+          <Item>
+            <ItemID>
+              <ID>2303885</ID>
+            </ItemID>
+          </Item>
+          <Facility>
+            <IDs>
+              <ID schemeName="center">DALLAS</ID>
+            </IDs>
+          </Facility>
+        </ProductAvailability>
+      </DataArea>
+    </GetProductAvailability>
+  </esb:Body>
+</esb:Envelope>
+
